@@ -7,7 +7,7 @@ export default function About() {
         <h2 className="title">About Me</h2>
         <div className="about-content">
           <div className="left column">
-            <img src="./Assets/images/about.jpg" alt="" />
+            <img src="./assets/images/about.jpg" alt="" />
           </div>
           <div className="right column">
             <div className="text">I am Hengquan Li</div>
