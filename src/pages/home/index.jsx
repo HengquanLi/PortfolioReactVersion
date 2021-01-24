@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom'
 
 export default function Home() {
   return (
@@ -8,7 +9,7 @@ export default function Home() {
           <div className="text-1">Hello, my name is</div>
           <div className="text-2">Hengquan Li</div>
           <div className="text-3">And I'm a <span>Full stack developer</span></div>
-          <a id="contact-btn" href="#contact">Contact me</a>
+          <Link id="contact-btn" to='/contact'>Contact me</Link>
         </div>
       </div>
     </section>
