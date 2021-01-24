@@ -1,4 +1,11 @@
-import React from 'react'
+import React from 'react';
+import Sheduler from './images/scheduler.png';
+import Burger from './images/burger.png';
+import EmployeeManagement from './images/employeeManagement.png';
+import Holiday from './images/holiday.png';
+import Team from './images/team.png';
+import Weather from './images/weather.png';
+
 
 export default function Portfolio() {
   return (
@@ -9,7 +16,7 @@ export default function Portfolio() {
           <div className="card display">
             <div className="box">
               <a href="https://grandbearsleepy.github.io/WorkDayScheduler/" target="blank">
-                <img src="./assets/images/scheduler.png" alt="work day scheduler" />
+                <img src={Sheduler} alt="work day scheduler" />
                 <div className="name"> Day scheduler</div>
               </a>
             </div>
@@ -17,7 +24,7 @@ export default function Portfolio() {
           <div className="card display">
             <div className="box">
               <a href="https://grandbearsleepy.github.io/WeatherDashboard/" target="blank">
-                <img src="./assets/images/weather.png" alt="weather dashboard" />
+                <img src={Weather} alt="weather dashboard" />
                 <div className="name">Weather forecast</div>
               </a>
             </div>
@@ -25,7 +32,7 @@ export default function Portfolio() {
           <div className="card display">
             <div className="box">
               <a href="https://grandbearsleepy.github.io/Public-Holiday-Checker/" target="blank">
-                <img src="./assets/images/holiday.png" alt="holiday checker" />
+                <img src={Holiday} alt="holiday checker" />
                 <div className="name">Holiday checker</div>
               </a>
             </div>
@@ -33,7 +40,7 @@ export default function Portfolio() {
           <div className="card display">
             <div className="box">
               <a href="https://github.com/GrandBearSleepy/TeamProfileGenerator" target="blank">
-                <img src="./assets/images/team.png" alt="team Generator" />
+                <img src={Team} alt="team Generator" />
                 <div className="name">Team Generator</div>
               </a>
             </div>
@@ -41,7 +48,7 @@ export default function Portfolio() {
           <div className="card display">
             <div className="box">
               <a href="https://github.com/GrandBearSleepy/EployeeManagementSystem" target="blank">
-                <img src="./assets/images/employeeManagement.png" alt="Employee Management" />
+                <img src={EmployeeManagement} alt="Employee Management" />
                 <div className="name">Employee Management</div>
               </a>
             </div>
@@ -49,7 +56,7 @@ export default function Portfolio() {
           <div className="card display">
             <div className="box">
               <a href="https://github.com/GrandBearSleepy/Burger" target="blank">
-                <img src="./assets/images/burger.png" alt="Burgers' Burger" />
+                <img src={Burger} alt="Burgers' Burger" />
                 <div className="name">Burgers' Burger</div>
               </a>
             </div>

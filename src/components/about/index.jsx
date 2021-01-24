@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import MyPhoto from './images/about-small.png';
 
 export default function About() {
   return (
@@ -7,7 +8,7 @@ export default function About() {
         <h2 className="title">About Me</h2>
         <div className="about-content">
           <div className="left column">
-            <img src="./assets/images/about.jpg" alt="" />
+            <img src={MyPhoto} alt="" />
           </div>
           <div className="right column">
             <div className="text">I am Hengquan Li</div>

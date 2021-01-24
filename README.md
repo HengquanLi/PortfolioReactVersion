@@ -1,5 +1,9 @@
 # Portfolio Page built by React
 
-Still got some problem with the `path`, all the images don't show up.
+![imag](./public/assets/images/screen.png)
+
+Deployed link:
+
+https://grandbearsleepy.github.io/PortfolioReactVersion/
 
   

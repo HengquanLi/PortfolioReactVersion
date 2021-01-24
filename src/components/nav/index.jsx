@@ -1,11 +1,11 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Nav() {
   return (
     <nav className="navbar">
       <div className="max-width">
-        <div className="logo"><a href="/">Portfo<span>lio.</span></a></div>
+        <div className="logo"><a><Link to='/'>Portfo<span>lio.</span></Link></a></div>
         <ul className="menu">
           <li>
             <Link to='/home'>Home</Link>
