@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Nav from './components/nav';
-import Home from './components/home';
-import About from './components/about';
-import Portfolio from './components/portfolio';
-import Contact from './components/contact';
+import Home from './pages/home';
+import About from './pages/about';
+import Portfolio from './pages/portfolio';
+import Contact from './pages/contact';
 import Footer from './components/footer';
 
 

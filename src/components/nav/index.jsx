@@ -1,23 +1,23 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 export default function Nav() {
   return (
     <nav className="navbar">
       <div className="max-width">
-        <div className="logo"><a><Link to='/'>Portfo<span>lio.</span></Link></a></div>
+        <div className="logo"><a><NavLink to='/'>Portfo<span>lio.</span></NavLink></a></div>
         <ul className="menu">
           <li>
-            <Link to='/home'>Home</Link>
+            <NavLink to='/home'>Home</NavLink>
           </li>
           <li>
-            <Link to='/about'>About</Link>
+            <NavLink to='/about'>About</NavLink>
           </li>
           <li>
-            <Link to='/portfolio'>Portfolio</Link>
+            <NavLink to='/portfolio'>Portfolio</NavLink>
           </li>
           <li>
-            <Link to='/contact'>Contact</Link>
+            <NavLink to='/contact'>Contact</NavLink>
           </li>
         </ul>
         <div className="menu-btn">
