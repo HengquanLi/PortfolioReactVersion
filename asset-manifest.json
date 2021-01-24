@@ -1,18 +1,24 @@
 {
   "files": {
-    "main.js": "/PortfolioReactVersion/static/js/main.fcd95487.chunk.js",
-    "main.js.map": "/PortfolioReactVersion/static/js/main.fcd95487.chunk.js.map",
+    "main.js": "/PortfolioReactVersion/static/js/main.124f83c9.chunk.js",
+    "main.js.map": "/PortfolioReactVersion/static/js/main.124f83c9.chunk.js.map",
     "runtime-main.js": "/PortfolioReactVersion/static/js/runtime-main.c681db40.js",
     "runtime-main.js.map": "/PortfolioReactVersion/static/js/runtime-main.c681db40.js.map",
     "static/js/2.e72bfb5d.chunk.js": "/PortfolioReactVersion/static/js/2.e72bfb5d.chunk.js",
     "static/js/2.e72bfb5d.chunk.js.map": "/PortfolioReactVersion/static/js/2.e72bfb5d.chunk.js.map",
     "index.html": "/PortfolioReactVersion/index.html",
     "static/js/2.e72bfb5d.chunk.js.LICENSE.txt": "/PortfolioReactVersion/static/js/2.e72bfb5d.chunk.js.LICENSE.txt",
-    "static/media/scheduler.ebbdcf25.png": "/PortfolioReactVersion/static/media/scheduler.ebbdcf25.png"
+    "static/media/about-small.4271ce19.png": "/PortfolioReactVersion/static/media/about-small.4271ce19.png",
+    "static/media/burger.405f9d8d.png": "/PortfolioReactVersion/static/media/burger.405f9d8d.png",
+    "static/media/employeeManagement.65498788.png": "/PortfolioReactVersion/static/media/employeeManagement.65498788.png",
+    "static/media/holiday.30b527ae.png": "/PortfolioReactVersion/static/media/holiday.30b527ae.png",
+    "static/media/scheduler.ebbdcf25.png": "/PortfolioReactVersion/static/media/scheduler.ebbdcf25.png",
+    "static/media/team.5ab2441f.png": "/PortfolioReactVersion/static/media/team.5ab2441f.png",
+    "static/media/weather.97378ca4.png": "/PortfolioReactVersion/static/media/weather.97378ca4.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c681db40.js",
     "static/js/2.e72bfb5d.chunk.js",
-    "static/js/main.fcd95487.chunk.js"
+    "static/js/main.124f83c9.chunk.js"
   ]
 }
